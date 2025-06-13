@@ -1,0 +1,63 @@
+.About_bbody {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: shaking 20s ease-in-out infinite;
+    background-image: url(/src/CompanyProject/assets/Contact.jpeg);
+}
+
+@keyframes shaking {
+    0% {
+        background-size: 102%;
+    }
+
+    50% {
+        background-size: 100%;
+    }
+
+    100% {
+        background-size: 102%;
+    }
+}
+
+.About_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 45%;
+    margin-bottom: 15%;
+    height: auto;
+}
+
+.About_container h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.About_container p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.goBack {
+    border-radius: 5px;
+    background-color: beige;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
+.goBack:hover {
+    background-color: rgba(164, 157, 157, 0.126);
+    color: black;
+}

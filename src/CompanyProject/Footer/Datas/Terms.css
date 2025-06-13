@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background-color: #f1f3f6;
+}
+
+.Terms_bbody {
+    background: url('https://img.freepik.com/free-vector/abstract-digital-grid-black-background_53876-97647.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Terms_container {
+    background-color: rgba(255, 255, 255, 0.059);
+    max-width: 1000px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    max-height: 85vh;
+}
+
+.Terms_container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #b6c9e7;
+}
+
+.Terms_container h2 {
+    color:#b6c9e7;
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.Terms_container p {
+    font-size: 15px;
+    color: white;
+    line-height: 1.8;
+}
+
+.Terms_container p::before {
+    
+    color: #2874f0;
+    font-weight: bold;
+}
